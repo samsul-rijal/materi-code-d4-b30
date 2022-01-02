@@ -11,6 +11,9 @@ nav {
     background-color:rgb(186, 191, 189);
     display: flex;
     height: 7vh;
+    top: 0;
+    width: 100%;
+    position: fixed;
 }
 
 nav .left {
@@ -125,4 +128,46 @@ button {
     border: none;
     cursor:pointer;
     font-size: 12px;
+}
+
+
+/* dibawah 600px code dibawah ini dijalankan */
+@media screen and (max-width: 600px) {
+    nav .left {
+        padding: 5px;
+    }
+
+    nav .right {
+        padding: 5px;
+    }
+
+
+    .container {
+        display: block;
+    }
+
+    .container .section {
+        display: block;
+        margin: 100px auto;
+    }
+
+    .section .right {
+        padding-left: 5px;
+    }
+
+    /* Jika ingin tampilan icon skill posisi block/kebawah, uncoment code dibawah ini  */
+    /* .section .right .skill-container {
+        display: block;
+    } */
+
+    .right h1 {
+        margin-top: 30px;
+    }
+}
+
+/* diatas 600px code dibawah ini di jalankan */
+@media screen and (min-width: 600px) {
+    body {
+        /* background-color: orangered; */
+    }
 }
