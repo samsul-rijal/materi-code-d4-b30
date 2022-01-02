@@ -1,9 +1,6 @@
 * {
     
     font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
     margin: 0;
 }
 
@@ -140,7 +137,6 @@ button {
     nav .right {
         padding: 5px;
     }
-
 
     .container {
         display: block;
